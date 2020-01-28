@@ -21,7 +21,7 @@ import java.security.interfaces.RSAPrivateKey;
 import java.util.Date;
 
 public class GoogleToken {
-    public static final String credFile = "C:\\java\\cargamos\\walmart.json";
+    public static final String credFile = "path/cred.json";
     public static final String target_audience = "393211549928-c0iacl02ns4lnvpbdgie5f4c9scdiffn.apps.googleusercontent.com";
     public static final String OAUTH_TOKEN_URI = "https://www.googleapis.com/oauth2/v4/token";
     public static final String JWT_BEARER_TOKEN_GRANT_TYPE = "urn:ietf:params:oauth:grant-type:jwt-bearer";
@@ -45,6 +45,7 @@ public class GoogleToken {
 
     public DecodedJWT getGoogleIdToken() throws IOException {
         String jwt = getSignedJwt();
+        System.out.println("JWT: "+jwt);
         final GenericData tokenRequest = new GenericData()
                 .set("grant_type", JWT_BEARER_TOKEN_GRANT_TYPE)
                 .set("assertion", jwt);

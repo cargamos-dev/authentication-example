@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a0e9fa3-5f12-4737-b1bf-4335315cf77f" name="Default Changelist" comment="" />
+    <list default="true" id="9a0e9fa3-5f12-4737-b1bf-4335315cf77f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/auth/ExampleAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/auth/ExampleAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/auth/google/GoogleToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/auth/google/GoogleToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/example_auth.kotlin_module" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +20,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,11 +39,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="ExampleAuth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.auth.ExampleAuth" />
-      <module name="example_auth" />
+      <module name="authentication-example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="example.auth.*" />
@@ -64,6 +75,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="417" y="57" key="#ExampleAuth" timestamp="1580240436467">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="417" y="57" key="#ExampleAuth/0.0.1366.768/1366.0.2194.1234@0.0.1366.768" timestamp="1580240436467" />
+    <state x="413" y="175" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580240430610">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="175" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.768/1366.0.2194.1234@0.0.1366.768" timestamp="1580240430610" />
     <state x="2206" y="200" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580165722768">
       <screen x="1366" y="0" width="2194" height="1234" />
     </state>
@@ -77,25 +96,25 @@
     </state>
     <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.768/1366.0.2194.1234@0.0.1366.768" timestamp="1580230301303" />
     <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1580220594759" />
-    <state width="1323" height="228" key="GridCell.Tab.0.bottom" timestamp="1580239225325">
+    <state width="1323" height="234" key="GridCell.Tab.0.bottom" timestamp="1580240463876">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="228" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.2194.1234@0.0.1366.768" timestamp="1580239225325" />
+    <state width="1323" height="234" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.2194.1234@0.0.1366.768" timestamp="1580240463876" />
     <state width="2151" height="346" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.2194.1234@1366.0.2194.1234" timestamp="1580165427412" />
-    <state width="1323" height="228" key="GridCell.Tab.0.center" timestamp="1580239225324">
+    <state width="1323" height="234" key="GridCell.Tab.0.center" timestamp="1580240463875">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="228" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.2194.1234@0.0.1366.768" timestamp="1580239225324" />
+    <state width="1323" height="234" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.2194.1234@0.0.1366.768" timestamp="1580240463875" />
     <state width="2151" height="346" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.2194.1234@1366.0.2194.1234" timestamp="1580165427412" />
-    <state width="1323" height="228" key="GridCell.Tab.0.left" timestamp="1580239225324">
+    <state width="1323" height="234" key="GridCell.Tab.0.left" timestamp="1580240463875">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="228" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.2194.1234@0.0.1366.768" timestamp="1580239225324" />
+    <state width="1323" height="234" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.2194.1234@0.0.1366.768" timestamp="1580240463875" />
     <state width="2151" height="346" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.2194.1234@1366.0.2194.1234" timestamp="1580165427412" />
-    <state width="1323" height="228" key="GridCell.Tab.0.right" timestamp="1580239225325">
+    <state width="1323" height="234" key="GridCell.Tab.0.right" timestamp="1580240463876">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="228" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.2194.1234@0.0.1366.768" timestamp="1580239225325" />
+    <state width="1323" height="234" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.2194.1234@0.0.1366.768" timestamp="1580240463876" />
     <state width="2151" height="346" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.2194.1234@1366.0.2194.1234" timestamp="1580165427412" />
     <state x="1994" y="277" key="Maven.ArtifactSearchDialog" timestamp="1580161846910">
       <screen x="1366" y="0" width="2194" height="1234" />
